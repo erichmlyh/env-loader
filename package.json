@@ -1,24 +1,27 @@
 {
-  "name": "null-loader",
-  "version": "0.1.1",
-  "description": "A loader that returns an empty module.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/webpack/null-loader.git"
-  },
-  "keywords": [
-    "webpack",
-    "loader",
-    "empty"
-  ],
-  "author": "Tobias Koppers @sokra",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/webpack/null-loader/issues"
-  },
-  "homepage": "https://github.com/webpack/null-loader"
+    "name": "env-loader",
+    "version": "0.1.1",
+    "description": "A loader that returns an env module.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "loader-utils": "^0.2.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/erichmlyh/env-loader.git"
+    },
+    "keywords": [
+        "webpack",
+        "loader"
+    ],
+    "author": "Tobias Koppers @sokra",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/erichmlyh/env-loader/issues"
+    },
+    "homepage": "https://github.com/erichmlyh/env-loader",
+    "folked": "https://github.com/webpack/null-loader"
 }
